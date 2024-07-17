@@ -519,6 +519,7 @@ func (r *Runner) RunEnumeration() error {
 		// if input type is not list (implicitly enable fuzzing)
 		r.options.DAST = true
 	}
+
 	store, err := loader.New(loaderConfig)
 	if err != nil {
 		return errors.Wrap(err, "Could not create loader.")
@@ -727,6 +728,8 @@ func (r *Runner) displayExecutionInfo(store *loader.Store) {
 	stats.DisplayAsWarning(httpProtocol.SetThreadToCountZero)
 	stats.ForceDisplayWarning(templates.SkippedUnsignedStats)
 	stats.ForceDisplayWarning(templates.SkippedRequestSignatureStats)
+	stats.ForceDisplayWarning(templates.SkippedSelfContainedStats)
+	stats.ForceDisplayWarning(templates.SkippedFileStats)
 
 	cfg := config.DefaultConfig
 
