@@ -1,11 +1,10 @@
+# Thanks
 
-### Thanks
+Many people have contributed to **thc-Nuclei** making it a wonderful tool either by making a pull request fixing some stuff. Here, we recognize these persons and thank them. 
 
-Many people have contributed to **nuclei** making it a wonderful tool either by making a pull request fixing some stuff. Here, we recognize these persons and thank them. 
+- All the contributors at [CONTRIBUTORS](https://github.com/byt3n33dl3/thc-Nuclei/graphs/contributors) who made Nuclei what it is.
 
-- All the contributors at [CONTRIBUTORS](https://github.com/projectdiscovery/nuclei/graphs/contributors) who made Nuclei what it is.
-
-We'd like to thank some additional amazing people, who contributed a lot in nuclei's journey - 
+We'd like to thank some additional amazing people, who contributed a lot in Nuclei's journey - 
 
 - [@manuelbua](https://www.github.com/manuelbua) - Multiple feature additions including progress bar. 
 - [@dwisiswant0](https://www.github.com/dwisiswant0) - For fixing multiple bugs with HTTP Raw requests. 

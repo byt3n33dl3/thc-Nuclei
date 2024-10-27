@@ -28,12 +28,12 @@ go-build:
 	$(GOBUILD) $(GOFLAGS) -ldflags '${LDFLAGS}' $(GOBUILD_ADDITIONAL_ARGS) \
 		 -o '${GOBUILD_OUTPUT}' $(GOBUILD_PACKAGES)
 
-build: GOBUILD_OUTPUT = nuclei
-build: GOBUILD_PACKAGES = cmd/nuclei/main.go
+build: GOBUILD_OUTPUT = thc-nuclei
+build: GOBUILD_PACKAGES = cmd/thc-nuclei/main.go
 build: go-build
 
-build-stats: GOBUILD_OUTPUT = nuclei-stats
-build-stats: GOBUILD_PACKAGES = cmd/nuclei/main.go
+build-stats: GOBUILD_OUTPUT = thc-nuclei-stats
+build-stats: GOBUILD_PACKAGES = cmd/thc-nuclei/main.go
 build-stats: GOBUILD_ADDITIONAL_ARGS = -tags=stats
 build-stats: go-build
 
@@ -61,7 +61,7 @@ docs:
 	$(GOCMD) generate pkg/templates/templates.go
 
 	$(GOBUILD) -o "${GOBUILD_OUTPUT}" $(GOBUILD_PACKAGES)
-	./$(GOBUILD_OUTPUT) docs.md nuclei-jsonschema.json
+	./$(GOBUILD_OUTPUT) docs.md thc-nuclei-jsonschema.json
 
 	git reset --hard # line 59
 

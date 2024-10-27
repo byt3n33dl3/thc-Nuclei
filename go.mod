@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/nuclei/v3
+module github.com/byt3n33dl3/thc-Nuclei/v3
 
 go 1.21.0
 
