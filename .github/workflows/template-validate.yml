@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: projectdiscovery/actions/setup/go@v1
+      - uses: byt3n33dl3/actions/setup/go@v1
 
       - name: Template Validation
         run: |

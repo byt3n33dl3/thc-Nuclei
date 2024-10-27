@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
 
-        For support requests, FAQs or "How to" questions, please use the [GitHub Discussions](https://github.com/projectdiscovery/nuclei/discussions) section instead or join our [Discord server](https://discord.gg/projectdiscovery) to discuss the idea on the **#nuclei** channel.
+        For support requests, FAQs or "How to" questions, please use the [GitHub Discussions](https://github.com/byt3n33dl3/thc-Nuclei/discussions) section instead or join our [Discord server](https://discord.gg/projectdiscovery) to discuss the idea on the **#nuclei** channel.
 
         :warning: **Issues missing important information may be closed without further investigation.**
   - type: checkboxes

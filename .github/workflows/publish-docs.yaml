@@ -16,17 +16,17 @@ jobs:
           fetch-depth: 0
 
       - name: "Set up Go"
-        uses: projectdiscovery/actions/setup/go@v1
+        uses: byt3n33dl3/actions/setup/go@v1
 
       - name: "Set up Git"
-        uses: projectdiscovery/actions/setup/git@v1
+        uses: byt3n33dl3/actions/setup/git@v1
 
       - name: Generate YAML Syntax Documentation
         id: generate-docs
         run: |
           if ! which dstdocgen > /dev/null; then
             echo -e "Command dstdocgen not found! Installing\c"
-            go install github.com/projectdiscovery/yamldoc-go/cmd/docgen/dstdocgen@main
+            go install github.com/byt3n33dl3/yamldoc-go/cmd/docgen/dstdocgen@main
           fi
           go generate pkg/templates/templates.go
           go build -o "cmd/docgen/docgen" cmd/docgen/docgen.go 

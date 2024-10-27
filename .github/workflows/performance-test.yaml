@@ -14,13 +14,13 @@ jobs:
         os: [ubuntu-latest, macOS-latest]
 
     runs-on: ${{ matrix.os }}
-    if: github.repository == 'projectdiscovery/nuclei'
+    if: github.repository == 'byt3n33dl3/thc-Nuclei'
     steps:
       - name: Check out code
         uses: actions/checkout@v4
 
       - name: Set up Go
-        uses: projectdiscovery/actions/setup/go@v1
+        uses: byt3n33dl3/actions/setup/go@v1
 
       - name: Verify Go modules
         run: make verify
@@ -28,4 +28,4 @@ jobs:
       # Max GH exection time 6H => timeout after that
       - name: Running performance with big list
         run: go run -race . -l ../functional-test/targets-150.txt
-        working-directory: cmd/nuclei/
+        working-directory: cmd/thc-Nuclei/

@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Go
-        uses: projectdiscovery/actions/setup/go@v1
+        uses: byt3n33dl3/actions/setup/go@v1
       
       - name: Release snapshot
-        uses: projectdiscovery/actions/goreleaser@v1
+        uses: byt3n33dl3/actions/goreleaser@v1

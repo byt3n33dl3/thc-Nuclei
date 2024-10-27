@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Go
-        uses: projectdiscovery/actions/setup/go@v1
+        uses: byt3n33dl3/actions/setup/go@v1
 
       - name: Run golangci-lint
-        uses: projectdiscovery/actions/golangci-lint@v1
+        uses: byt3n33dl3/actions/golangci-lint@v1

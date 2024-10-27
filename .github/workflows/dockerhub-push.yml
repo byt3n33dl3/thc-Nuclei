@@ -17,7 +17,7 @@ jobs:
       - name: Get GitHub tag
         id: meta
         run: |
-          curl --silent "https://api.github.com/repos/projectdiscovery/nuclei/releases/latest" | jq -r .tag_name | xargs -I {} echo TAG={} >> $GITHUB_OUTPUT
+          curl --silent "https://api.github.com/repos/byt3n33dl3/thc-Nuclei/releases/latest" | jq -r .tag_name | xargs -I {} echo TAG={} >> $GITHUB_OUTPUT
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
@@ -37,11 +37,11 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: projectdiscovery/nuclei:latest,projectdiscovery/nuclei:${{ steps.meta.outputs.TAG }}
+          tags: byt3n33dl3/thc-Nuclei:latest,byt3n33dl3/thc-Nuclei:${{ steps.meta.outputs.TAG }}
 
       - name: Update DockerHub Description
         uses: peter-evans/dockerhub-description@v3
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
-          repository: projectdiscovery/nuclei
+          repository: byt3n33dl3/thc-Nuclei

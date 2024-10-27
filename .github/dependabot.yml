@@ -18,7 +18,7 @@ updates:
     labels:
       - "Type: Maintenance"
     allow:
-      - dependency-name: "github.com/projectdiscovery/*"
+      - dependency-name: "github.com/byt3n33dl3/*"
 
 #  # Maintain dependencies for GitHub Actions
 #  - package-ecosystem: "github-actions"
