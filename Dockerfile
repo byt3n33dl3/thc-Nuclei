@@ -3,7 +3,7 @@ RUN apk add build-base
 WORKDIR /app
 COPY . /app
 RUN go mod download
-RUN go build /cmd/thc-nuclei
+RUN go build /usr/thc-nuclei
 
 FROM alpine:3.18.6
 RUN apk upgrade --no-cache \
