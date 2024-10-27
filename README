@@ -16,7 +16,7 @@ Nuclei is a modern, high-performance vulnerability scanner that leverages simple
 - Ultra-fast parallel scan processing and request clustering.
 - Integrate into CI/CD pipelines for vulnerability detection and regression testing.
 - Supports multiple protocols like TCP, DNS, HTTP, SSL, WHOIS JavaScript, Code and more.
-- Integrate with Jira, Splunk, GitHub, Elastic, GitLab.
+- Integrate with Jira, Splunk, GitHub, Elastic, GitLab, BitBucket.
 
 This project is in active development. Expect breaking changes with releases. Review the release changelog before updating.
 This project is primarily built to be used as a standalone CLI tool. **Running nuclei as a service may pose security risks.** It's recommended to use with caution and additional security measures.
