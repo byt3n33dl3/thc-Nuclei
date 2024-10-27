@@ -1,11 +1,4 @@
-FROM golang:1.21-alpine AS build-env
-RUN apk add build-base
-WORKDIR /app
-COPY . /app
-RUN go mod download
-RUN go build thc-nuclei
-
-FROM alpine:3.18.6
+FROM python:3.11-slim
 
 ENV LANG=C.UTF-8
 ENV LC_ALL=C.UTF-8
