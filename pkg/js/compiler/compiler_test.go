@@ -8,7 +8,7 @@ import (
 
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/levels"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/byt3n33dl3/thc-Nuclei/v3/pkg/types"
 )
 
 func TestNewCompilerConsoleDebug(t *testing.T) {

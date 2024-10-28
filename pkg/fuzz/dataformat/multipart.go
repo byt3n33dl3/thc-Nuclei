@@ -8,7 +8,7 @@ import (
 	"mime/multipart"
 	"net/textproto"
 
-	mapsutil "github.com/projectdiscovery/utils/maps"
+	mapsutil "github.com/byt3n33dl3/utils/maps"
 )
 
 type MultiPartForm struct {
