@@ -1,14 +1,37 @@
+<p align="center">
+	
+```go
    __  __               _   __           __     _ 
   / /_/ /_  _____      / | / /_  _______/ /__  (_)
  / __/ __ \/ ___/_____/  |/ / / / / ___/ / _ \/ / 
 / /_/ / / / /__/_____/ /|  / /_/ / /__/ /  __/ /  
 \__/_/ /_/\___/     /_/ |_/\__,_/\___/_/\___/_/        
-
               	 N U C L E I   
 		
-	Projectdiscovery - byt3n33dl3
+     @Projectdiscovery && @byt3n33dl3
+```
+</p>
 
-Nuclei is a modern, high-performance vulnerability scanner that leverages simple YAML-based templates. It empowers you to design custom vulnerability detection scenarios that mimic real-world conditions, leading to zero false positives.
+<p align="center">
+  <a href="https://github.com/byt3n33dl3/thc-Nuclei/blob/dev/README.md">English</a> •
+  <a href="https://github.com/byt3n33dl3/thc-Nuclei/blob/dev/README_ID.md">Indonesia</a>
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/c%23-12.0-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/go-1.21-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white">
+&nbsp;&nbsp;
+<a href="https://github.com/byt3n33dl3/thc-Nuclei/"><img src="https://img.shields.io/badge/Documentation-%23000000.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1ib29rLW9wZW4iPjxwYXRoIGQ9Ik0xMiA3djE0Ii8+PHBhdGggZD0iTTMgMThhMSAxIDAgMCAxLTEtMVY0YTEgMSAwIDAgMSAxLTFoNWE0IDQgMCAwIDEgNCA0IDQgNCAwIDAgMSA0LTRoNWExIDEgMCAwIDEgMSAxdjEzYTEgMSAwIDAgMS0xIDFoLTZhMyAzIDAgMCAwLTMgMyAzIDMgMCAwIDAtMy0zeiIvPjwvc3ZnPg==&logoColor=white"></a>
+&nbsp;&nbsp;
+							    
+# Nuclei / `Master` 
+
+```
+Is a modern, high-performance vulnerability scanner
+```
+That leverages simple YAML-based templates. It empowers you to design custom vulnerability detection scenarios that mimic real world conditions, leading to zero false positives.
 
 - Simple YAML format for creating and customizing vulnerability templates.
 - Contributed by thousands of security professionals to tackle trending vulnerabilities.
@@ -21,11 +44,39 @@ Nuclei is a modern, high-performance vulnerability scanner that leverages simple
 This project is in active development. Expect breaking changes with releases. Review the release changelog before updating.
 This project is primarily built to be used as a standalone CLI tool. **Running nuclei as a service may pose security risks.** It's recommended to use with caution and additional security measures.
 
-Get Started
+# Get Started
 
-1. Nuclei CLI**
+`1. Nuclei CLI`
 
-Install Nuclei on your machine. Get started by following the installation guide [here](https://docs.projectdiscovery.io/tools/nuclei/install?utm_source=github&utm_medium=web&utm_campaign=nuclei_readme). Additionally, We provide [a free cloud tier](https://cloud.projectdiscovery.io/sign-up) and comes with a generous monthly free limits:
+Install Nuclei on your machine. Get started by following the installation guide [here](https://docs.projectdiscovery.io/tools/nuclei/install?utm_source=github&utm_medium=web&utm_campaign=nuclei_readme). Additionally, 
+We provide a free cloud [tier](https://cloud.projectdiscovery.io/sign-up) and comes with a generous monthly free limits:
+
+- Store and visualize your vulnerability findings
+- Write and manage your nuclei templates
+- Access latest nuclei templates
+- Discover and store your targets
+
+`2. Pro and Enterprise Editions`
+
+```
+For security Teams and Enterprises
+```
+
+# We `provide`
+a cloud-hosted service built on top of Nuclei OSS, fine-tuned to help you continuously run vulnerability scans at scale with your team and existing workflows:
+
+- 50x faster scans
+- Large scale scanning with high accuracy
+- Integrations with cloud services (AWS, GCP, Azure, CloudFlare, Fastly, Terraform, Kubernetes)
+- Jira, Slack, Linear, APIs and Webhooks
+- Executive and compliance reporting
+- Plus: Real-time scanning, SAML SSO, SOC 2 compliant platform (with EU and US hosting options), shared team workspaces, and more
+- We're constantly adding new features
+- Ideal for: Pentesters, security teams, and enterprises
+
+### **1. Nuclei CLI**
+
+Install Nuclei on your machine. Get started by following the installation guide [here](https://docs.projectdiscovery.io/tools/nuclei/install?utm_source=github&utm_medium=web&utm_campaign=nuclei_readme). Additionally, We provide a free cloud [tier](https://cloud.projectdiscovery.io/sign-up) and comes with a generous monthly free limits:
 
 - Store and visualize your vulnerability findings
 - Write and manage your nuclei templates
@@ -42,23 +93,22 @@ For security teams and enterprises, we provide a cloud-hosted service built on t
 - Jira, Slack, Linear, APIs and Webhooks
 - Executive and compliance reporting
 - Plus: Real-time scanning, SAML SSO, SOC 2 compliant platform (with EU and US hosting options), shared team workspaces, and more
-- We're constantly adding new features
-- Ideal for: Pentesters, security teams, and enterprises
+- We're constantly adding new [features](https://feedback.projectdiscovery.io/changelog)!
+- **Ideal for:** Pentesters, security teams, and enterprises
 
-Documentation
 
-https://docs.projectdiscovery.io/tools/nuclei/running
-https://www.youtube.com/playlist?list=PLZRbR9aMzTTpItEdeNSulo8bYsvil80Rl
-
-Command Line Flags
+## Command Line Flags
 
 To display all the flags for the tool:
 
-
+```sh
 nuclei -h
-nuclei -hh
+```
 
+<details>
+  <summary>Expand full help flags</summary>
 
+```console
 Nuclei is a fast, template based vulnerability scanner focusing
 on extensive configurability, massive extensibility and ease of use.
 
@@ -292,47 +342,106 @@ Run nuclei with sorted Markdown outputs (with environment variables):
   $ MARKDOWN_EXPORT_SORT_MODE=template nuclei -target example.com -markdown-export nuclei_report/
 
 Additional documentation is available at: https://docs.nuclei.sh/getting-started/running
+```
 
-Additional documentation is available at: https://docs.nuclei.sh/getting-started/running
+Additional documentation is available at: [https://docs.nuclei.sh/getting-started/running](https://docs.nuclei.sh/getting-started/running?utm_source=github&utm_medium=web&utm_campaign=nuclei_readme)
 
-https://docs.projectdiscovery.io/templates/introduction) for use cases and ideas.
+</details>
 
-Use case                             | Nuclei template                                   
-:----------------------------------- | :-------------------------------------------------
-Detect known CVEs                    | (https://cloud.projectdiscovery.io/public/CVE-2021-45046)
-Identify Out-of-Band vulnerabilities | (https://cloud.projectdiscovery.io/public/CVE-2024-22120)
-SQL Injection detection              | (https://cloud.projectdiscovery.io/public/CVE-2022-34265)
-Cross-Site Scripting (XSS)           | (https://cloud.projectdiscovery.io/public/CVE-2023-4173)
-Default or weak passwords            | (https://cloud.projectdiscovery.io/public/airflow-default-login)
-Secret files or data exposure        | (https://cloud.projectdiscovery.io/public/airflow-configuration-exposure)
-Identify open redirects              | (https://cloud.projectdiscovery.io/public/open-redirect)
-Detect subdomain takeovers           | (https://cloud.projectdiscovery.io/public/azure-takeover-detection)
-Security misconfigurations           | (https://cloud.projectdiscovery.io/public/unauthenticated-jenkins)
-Weak SSL/TLS configurations          | (https://cloud.projectdiscovery.io/public/expired-ssl)
-Misconfigured cloud services         | (https://cloud.projectdiscovery.io/public/s3-public-read-acp)
-Remote code execution vulnerabilities| (https://cloud.projectdiscovery.io/public/CVE-2024-29824)
-Directory traversal attacks          | (https://cloud.projectdiscovery.io/public/oracle-fatwire-lfi)
-File inclusion vulnerabilities       | (https://cloud.projectdiscovery.io/public/CVE-2023-6977)
+### Single target scan
+
+To perform a quick scan on web-application:
+
+```sh
+nuclei -target https://example.com
+```
+
+### Scanning multiple targets
+
+Nuclei can handle bulk scanning by providing a list of targets. You can use a file containing multiple URLs.
+
+```sh
+nuclei -targets urls.txt
+```
+
+### Network scan
+
+This will scan the entire subnet for network-related issues, such as open ports or misconfigured services.
+
+```sh
+nuclei -target 192.168.1.0/24 
+```
+
+### Scanning with your custom template
+
+To write and use your own template, create a `.yaml` file with specific rules, then use it as follows.
+
+```sh
+nuclei -u https://example.com -t /path/to/your-template.yaml
+```
+# thc-Nuclei `Templates`
+
+Community and Rewards
+
+thc-Nuclei [templates](https://github.com/projectdiscovery/nuclei-templates) are based on the concepts of YAML based template files that define how the requests will be sent and processed. This allows easy extensibility capabilities to nuclei. The templates are written in YAML which specifies a simple human-readable format to quickly define the execution process.
+
+Try it online with our free AI powered Nuclei Templates Editor by clicking [here.](https://cloud.projectdiscovery.io/templates)
+
+Nuclei Templates offer a streamlined way to identify and communicate vulnerabilities, combining essential details like severity ratings and detection methods. This open-source, community-developed tool accelerates threat response and is widely recognized in the cybersecurity world. Nuclei templates are actively contributed by thousands of security researchers globally. We run two programs for our contributors: [Pioneers](https://projectdiscovery.io/pioneers) and [bounties](https://github.com/projectdiscovery/nuclei-templates/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22%F0%9F%92%8E%20Bounty%22).
+
+## Examples
+
+Visit our [Documentation](https://github.com/byt3n33dl3/thc-Nuclei/templates/introduction) for use cases and ideas.
+
+| Use case                             | Nuclei template                                    |
+| :----------------------------------- | :------------------------------------------------- |
+| Detect known CVEs                    | **[CVE-2021-44228 (Log4Shell)](https://cloud.projectdiscovery.io/public/CVE-2021-45046)**                     |
+| Identify Out-of-Band vulnerabilities | **[Blind SQL Injection via OOB](https://cloud.projectdiscovery.io/public/CVE-2024-22120)**                    |
+| SQL Injection detection              | **[Generic SQL Injection](https://cloud.projectdiscovery.io/public/CVE-2022-34265)**                          |
+| Cross-Site Scripting (XSS)           | **[Reflected XSS Detection](https://cloud.projectdiscovery.io/public/CVE-2023-4173)**                        |
+| Default or weak passwords            | **[Default Credentials Check](https://cloud.projectdiscovery.io/public/airflow-default-login)**                      |
+| Secret files or data exposure        | **[Sensitive File Disclosure](https://cloud.projectdiscovery.io/public/airflow-configuration-exposure)**                      |
+| Identify open redirects              | **[Open Redirect Detection](https://cloud.projectdiscovery.io/public/open-redirect)**                        |
+| Detect subdomain takeovers           | **[Subdomain Takeover Templates](https://cloud.projectdiscovery.io/public/azure-takeover-detection)**                   |
+| Security misconfigurations           | **[Unprotected Jenkins Console](https://cloud.projectdiscovery.io/public/unauthenticated-jenkins)**                    |
+| Weak SSL/TLS configurations          | **[SSL Certificate Expiry](https://cloud.projectdiscovery.io/public/expired-ssl)**                         |
+| Misconfigured cloud services         | **[Open S3 Bucket Detection](https://cloud.projectdiscovery.io/public/s3-public-read-acp)**                       |
+| Remote code execution vulnerabilities| **[RCE Detection Templates](https://cloud.projectdiscovery.io/public/CVE-2024-29824)**                        |
+| Directory traversal attacks          | **[Path Traversal Detection](https://cloud.projectdiscovery.io/public/oracle-fatwire-lfi)**                       |
+| File inclusion vulnerabilities       | **[Local/Remote File Inclusion](https://cloud.projectdiscovery.io/public/CVE-2023-6977)**                    |
 
 
-Our Mission
+# Our `Mission`
 
 Traditional vulnerability scanners were built decades ago. They are closed-source, incredibly slow, and vendor-driven. Today's attackers are mass exploiting newly released CVEs across the internet within days, unlike the years it used to take. This shift requires a completely different approach to tackling trending exploits on the internet.
 
 We built Nuclei to solve this challenge. We made the entire scanning engine framework open and customizable—allowing the global security community to collaborate and tackle the trending attack vectors and vulnerabilities on the internet. Nuclei is now used and contributed by Fortune 500 enterprises, government agencies, universities.
 
-You can participate by contributing to our code, 
-[templates library](https://github.com/projectdiscovery/nuclei-templates), or [joining our team.](https://projectdiscovery.io/)
+You can participate by contributing to our code
 
-Contributors
+# Contributors
 
-Thanks to 
-- Projectdiscovery
+<p align="left">
+<a href="https://github.com/byt3n33dl3"><img src="https://avatars.githubusercontent.com/u/151133481?s=48&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/projectdiscovery"><img src="https://avatars.githubusercontent.com/u/50994705?s=48&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/Ice3man543"><img src="https://avatars.githubusercontent.com/u/22318055?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/apps/dependabot"><img src="https://avatars.githubusercontent.com/in/29110?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/ehsandeep"><img src="https://avatars.githubusercontent.com/u/8293321?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/byt3exec"><img src="https://avatars.githubusercontent.com/u/160317126?s=48&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/RamanaReddy0M"><img src="https://avatars.githubusercontent.com/u/90540245?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/LuitelSamikshya"><img src="https://avatars.githubusercontent.com/u/85764322?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/kchason"><img src="https://avatars.githubusercontent.com/u/1111099?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+</p>
+
+# Thanks to / `Master`
+>- Projectdiscovery
+
 - SpaceX
-- All the amazing community contributors for sending PRs(https://github.com/projectdiscovery/nuclei/graphs/contributors) and keeping this project updated.
+
+- All the amazing community contributors for sending [PRs](https://github.com/byt3n33dl3/thc-Nuclei/graphs/contributors) and keeping this project updated.
+
 - GangstaCrew
 
-License
+# License [AGPL](https://github.com/byt3n33dl3/thc-Nuclei/blob/main/LICENSE.md) / `Master`
 
-Nuclei is distributed under AGPL License
-(https://github.com/byt3n33dl3/thc-Nuclei/blob/main/LICENSE.md).
+### Nuclei is distributed under AGPL License
