@@ -1,8 +1,8 @@
-# Nuclei Architecture Document
+# `Nuclei` Architecture Document / `Master` 
 
 A brief overview of Nuclei Engine architecture. This document will be kept updated as the engine progresses.
 
-## pkg/templates
+## `pkg` / Templates
 
 ### Template
 
@@ -28,7 +28,7 @@ type Preprocessor interface {
 }
 ```
 
-## pkg/model
+## `pkg` / Model
 
 Model package implements Information structure for Nuclei Templates. `Info` contains all major metadata information for the template. `Classification` structure can also be used to provide additional context to vulnerability data.
 
@@ -41,11 +41,13 @@ type WorkflowLoader interface {
 }
 ```
 
-## pkg/protocols
+## `pkg` / Protocols
 
+```
 Protocols package implements all the request protocols supported by Nuclei. This includes http, dns, network, headless and file requests as of now. 
+```
 
-### Request
+## Request
 
 It exposes a `Request` interface that is implemented by all the request protocols supported.
 
@@ -86,7 +88,7 @@ For reference protocol requests implementations, one can look at the below packa
 2. [pkg/protocols/dns](./pkg/protocols/dns)
 3. [pkg/protocols/network](./pkg/protocols/network)
 
-### Executer
+## Executer
 
 All these different requests interfaces are converted to an Executer which is also an interface defined in `pkg/protocols` which is used during final execution of the template.
 
@@ -110,13 +112,13 @@ For Workflow execution, a separate RunWorkflow function is used which executes t
 
 With this basic premise set, we can now start exploring the current runner implementation which will also walk us through the architecture of nuclei.
 
-## internal/runner
+## Internal / `Runner`
 
 ### Template loading
 
 The first process after all CLI specific initialisation is the loading of template/workflow paths that the user wants to run. This is done by the packages described below.
 
-#### pkg/catalog
+## `pkg` / Catalog
 
 This package is used to get paths using mixed syntax. It takes a template directory and performs resolving for template paths both from provided template and current user directory.
 
@@ -126,7 +128,7 @@ The syntax is very versatile and can include filenames, glob patterns, directori
 
 Next step is the initialisation of the reporting modules which is handled in `pkg/reporting`.  
 
-#### pkg/reporting
+## `pkg` / Reporting
 
 Reporting module contains exporters and trackers as well as a module for deduplication and a module for result formatting. 
 
@@ -153,7 +155,7 @@ Each exporter and trackers implement their own configuration in YAML format and 
 
 After reading all the inputs from various sources and initialisation other miscellaneous options, the next bit is the output writing which is done using `pkg/output` module.
 
-#### pkg/output
+## `pkg` / Output
 
 Output package implements the output writing functionality for Nuclei.
 
@@ -185,7 +187,7 @@ Polling for interactions and server registration only starts when a template use
 
 
 
-### RunEnumeration
+## RunEnumeration
 
 Next we arrive in the `RunEnumeration` function of the runner.
 
