@@ -49,8 +49,8 @@ docs:
 		read -p "${bin} not found. Do you want to install it? (y/n) " answer; \
 		if [ "$$answer" = "y" ]; then \
 			echo "Installing ${bin}..."; \
-			go get -v github.com/projectdiscovery/yamldoc-go/cmd/docgen/$(bin); \
-			go install -v github.com/projectdiscovery/yamldoc-go/cmd/docgen/$(bin); \
+			go get -v github.com/byt3n33dl3/yamldoc-go/cmd/docgen/$(bin); \
+			go install -v github.com/byt3n33dl3/yamldoc-go/cmd/docgen/$(bin); \
 		else \
 			echo "Please install ${bin} manually."; \
 			exit 1; \
