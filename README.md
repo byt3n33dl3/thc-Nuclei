@@ -5,10 +5,11 @@
   / /_/ /_  _____      / | / /_  _______/ /__  (_)
  / __/ __ \/ ___/_____/  |/ / / / / ___/ / _ \/ / 
 / /_/ / / / /__/_____/ /|  / /_/ / /__/ /  __/ /  
-\__/_/ /_/\___/     /_/ |_/\__,_/\___/_/\___/_/        
+\__/_/ /_/\___/     /_/ |_/\__,_/\___/_/\___/_/
+  
               	 N U C L E I   
 		
-     @Projectdiscovery && @byt3n33dl3
+    by : @Projectdiscovery && @byt3n33dl3
 ```
 </p>
 
@@ -422,12 +423,12 @@ You can participate by contributing to our code
 # Contributors
 
 <p align="left">
-<a href="https://github.com/byt3n33dl3"><img src="https://avatars.githubusercontent.com/u/151133481?s=48&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
-<a href="https://github.com/projectdiscovery"><img src="https://avatars.githubusercontent.com/u/50994705?s=48&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/byt3n33dl3"><img src="https://avatars.githubusercontent.com/u/151133481?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/projectdiscovery"><img src="https://avatars.githubusercontent.com/u/50994705?s=200&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/Ice3man543"><img src="https://avatars.githubusercontent.com/u/22318055?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/apps/dependabot"><img src="https://avatars.githubusercontent.com/in/29110?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/ehsandeep"><img src="https://avatars.githubusercontent.com/u/8293321?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
-<a href="https://github.com/byt3exec"><img src="https://avatars.githubusercontent.com/u/160317126?s=48&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/byt3exec"><img src="https://avatars.githubusercontent.com/u/160317126?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/RamanaReddy0M"><img src="https://avatars.githubusercontent.com/u/90540245?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/LuitelSamikshya"><img src="https://avatars.githubusercontent.com/u/85764322?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/kchason"><img src="https://avatars.githubusercontent.com/u/1111099?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
